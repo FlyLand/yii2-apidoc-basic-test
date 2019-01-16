@@ -12,14 +12,16 @@ use yii\web\Controller;
 class DefaultController extends Controller
 {
     /**
+     * this is a test
+     *
      * @brief 接口名称
-     * @param string $name name your'name
+     * @param string $name this is your test name (=name:defaultValue=)
      * @method GET
      * @detail 接口描述
      * @return array
      * @throws Null
      * @return string
-     */
+*/
     public function actionIndex()
     {
         $name = \Yii::$app->request->get('name');
